@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Historical Reenactments</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional CSS for animations */
+        .fadeIn {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            opacity: 0;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to VR Historical Reenactments</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</li>
+            <li><a href="vr-tec.html">Vr Technology</li>
+            <li><a href="faq.html">FAQ</li>
+            <li><a href="contact.html">Contact</li>
+        </ul>
+    </nav>
+    <main>
+    <section class="fadeIn">
+        <h2>Explore history like never before</h2>
+        <p>Step into the past through immersive virtual reality experiences.</p>
+    </section>
+    <section>
+        <h2>Featured Events</h2>
+        <div class="event">
+            <h3>The Battle of Gettysburg</h3>
+            <p>Experience one of the most significant battles of the American Civil War.</p>
+        </div>
+        <div class="event">
+            <h3>The Moon Landing</h3>
+            <p>Witness humanity's first steps on the lunar surface.</p>
+        </div>
+        <div class="event">
+            <h3>Exploration of Ancient Egypt</h3>
+            <p>Embark on a journey to uncover the mysteries of ancient Egyptian civilization.</p>
+        </div>
+        <div class="event">
+            <h3>Revolutionary War Reenactment</h3>
+            <p>Join the fight for independence in a virtual recreation of key Revolutionary War battles.</p>
+        </div>
+        <!-- Add more featured events -->
+    </section>
+    <section>
+        <h2>Subscribe for Updates</h2>
+        <form action="#" method="post">
+            <input type="email" name="email" placeholder="Enter your email address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+</main>
+    <footer>
+        <p>&copy; 2024 VR Historical Reenactments</p>
+    </footer>
+</body>
+</html>
